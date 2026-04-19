@@ -1,35 +1,83 @@
 # Warung Pintar POS
 
-Sistem Kasir (Point of Sale) modern yang dibangun menggunakan Go (Gin Framework) untuk backend dan React (Vite) untuk frontend.
+Sistem Kasir (**Point of Sale**) dan **Manajemen Inventory** berbasis web yang dirancang untuk membantu pengelolaan transaksi dan stok barang secara **efisien, cepat, dan modern**.
+
+---
 
 ## Fitur Utama
-- **Role Based Access Control (RBAC)**: Admin, Kasir, dan Staff Gudang.
-- **Manajemen Produk**: CRUD produk dengan kategori dan supplier.
-- **Transaksi Penjualan**: Pencatatan transaksi real-time.
-- **Laporan Penjualan**: Dashboard dan laporan periodik.
-- **Responsive Design**: Optimal untuk tampilan desktop maupun mobile.
 
-## Teknologi
-- **Backend**: Go (Gin Gonic), GORM, MySQL/PostgreSQL.
-- **Frontend**: React (Vite), CSS Modern, Lucide React (Icons).
-- **Authentication**: JWT (JSON Web Token).
+*  **Role Based Access Control (RBAC)**
+  Mendukung multi-role: **Admin** dan **Kasir** dengan hak akses berbeda.
 
-## Cara Menjalankan
+*  **Manajemen Produk**
+  CRUD produk lengkap dengan kategori dan stok barang.
 
-### 1. Backend (Go)
-Pastikan Anda sudah menginstal Go.
+*  **Transaksi Penjualan**
+  Pencatatan transaksi secara real-time dengan perhitungan otomatis.
+
+*  **Laporan Penjualan**
+  Menampilkan data transaksi, total penjualan, dan analisis sederhana.
+
+*  **Responsive Design**
+  Tampilan optimal di desktop maupun perangkat mobile.
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+###  Backend
+
+* Go (Golang) - Gin Framework
+* GORM (ORM)
+* MySQL / PostgreSQL
+
+###  Frontend
+
+* React (Vite)
+* Modern CSS (UI Clean & Responsive)
+* Lucide React (Icons)
+
+###  Authentication
+
+* JWT (JSON Web Token)
+
+---
+
+## ⚙️ Cara Menjalankan Project
+
+### 1️⃣ Backend (Golang)
+
 ```bash
 go mod tidy
 go run main.go
 ```
 
-### 2. Frontend (React)
-Pindah ke direktori `front-end`:
+---
+
+### 2️⃣ Frontend (React)
+
 ```bash
 cd front-end
 npm install
 npm run dev
 ```
 
-## Lisensi
-Proyek ini dilisensikan di bawah [MIT License](LICENSE).
+---
+
+## 📸 Preview 
+<img width="1170" height="2532" alt="image" src="https://github.com/user-attachments/assets/195e1d5f-c326-496b-bc6e-e0d7f8c0579d" />
+<img width="1170" height="2532" alt="image" src="https://github.com/user-attachments/assets/e31b8944-3819-4b78-9ebb-b29fce833b0e" />
+
+
+
+
+
+
+## 🎯 Tujuan Project
+
+Project ini dibuat untuk:
+
+* Pembelajaran pengembangan aplikasi fullstack
+* Simulasi sistem kasir modern
+* Portfolio pengembangan
+
