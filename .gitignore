@@ -1,0 +1,25 @@
+# Go
+bin/
+*.exe
+vendor/
+pkg/
+
+# Environment variables
+.env
+
+# Front-end
+front-end/node_modules/
+front-end/dist/
+front-end/dist-ssr/
+front-end/*.local
+
+# Uploads
+uploads/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
