@@ -7,7 +7,7 @@ Sistem Kasir (**Point of Sale**) dan **Manajemen Inventory** berbasis web yang d
 ## Fitur Utama
 
 *  **Role Based Access Control (RBAC)**
-  Mendukung multi-role: **Admin** dan **Kasir** dengan hak akses berbeda.
+  Mendukung multi-role: **Admin**,**Kasir** dan **Staff Gudang** dengan hak akses berbeda.
 
 *  **Manajemen Produk**
   CRUD produk lengkap dengan kategori dan stok barang.
